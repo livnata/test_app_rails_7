@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   root 'pages#home' # pages controller in the controllers folder and the action will be called home inside it
+  get 'about',to: 'pages#about'
+
 end
